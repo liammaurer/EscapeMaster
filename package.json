@@ -1,0 +1,24 @@
+{
+  "name": "escapemaster",
+  "version": "1.0.0",
+  "description": "Escape Room Benchmark Environment for evaluating AI agents",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/cli.ts",
+    "play": "ts-node src/cli.ts",
+    "dev": "ts-node src/cli.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["escape-room", "benchmark", "ai-agent", "game"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^25.0.2",
+    "@types/readline-sync": "^1.4.8",
+    "readline-sync": "^1.4.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
